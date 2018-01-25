@@ -1,7 +1,14 @@
 {
   "name": "react-keyboard-shortcuts",
   "version": "1.0.0",
-  "description": "A declarative library for handling hotkeys and focus areas in React applications.",
+  "description": "A declarative library for handling hotkeys based on explicit priority in React applications",
+  "keywords": [
+    "keyboard",
+    "shortcuts",
+    "events",
+    "react",
+    "hotkeys"
+  ],
   "main": "lib/hotkeys.js",
   "repository": "git@github.com:CurtisHumphrey/react-keyboard-shortcuts.git",
   "author": "Curtis M. Humphrey, Ph.D. <curtis@createdwithflair.com>",

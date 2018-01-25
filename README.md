@@ -1,12 +1,12 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/CurtisHumphrey/react-keyboard-shortcuts/blob/master/LICENSE)
 
-A declarative library for handling hotkeys and focus areas in React applications.
+A declarative library for handling hotkeys based on explicit priority in React applications.
 
 ## Feature Overview
 
 - Minimal and declarative API
 - Intuitive key commands thanks to [Mousetrap](https://github.com/ccampbell/mousetrap)
-- Explicate priority based event handling (see more later)
+- Explicit priority based event handling (see more later)
 
 ## Inspired by
 
