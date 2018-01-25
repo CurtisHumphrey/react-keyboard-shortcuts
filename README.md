@@ -44,6 +44,14 @@ When the Back and Next buttons mount their hotkeys are register.  When they unmo
 (via a higher-order-component).  Also if two or more components want to have handlers for the same sequence they each 
 provide a priority explicitly that determines who gets first chance (think of it like the z-index for css).  
 
+## Install
+
+### npm
+```npm install react-keyboard-shortcuts```
+
+### yarn
+```yarn add react-keyboard-shortcuts```
+
 ## Usage
 
 ### Easy Example
