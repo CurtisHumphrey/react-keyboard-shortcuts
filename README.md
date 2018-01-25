@@ -50,7 +50,7 @@ provide a priority explicitly that determines who gets first chance (think of it
 
 ```javascript
 import React from 'react'
-import {HotKeys} from 'react-keyboard-shortcuts'
+import {hotkeys} from 'react-keyboard-shortcuts'
 
 class NextButton extends React.PureComponent {
   static propTypes = {
@@ -58,9 +58,9 @@ class NextButton extends React.PureComponent {
   }
 
   hot_keys = {
-    'alt+n': {
+    'alt+n': { // combo from mousetrap
       priority: 1,
-      handler: () => this.props.onClick(),
+      handler: (event) => this.props.onClick(),
     },
   }
 
@@ -71,14 +71,34 @@ class NextButton extends React.PureComponent {
   }
 }
 
-export default HotKeys(NextButton)
+export default hotkeys(NextButton)
 ```
 
 ## API
 
-* ```HotKeys([component], [options = {}])```
+* ```hotkeys([component], [options = {}])```
   * options:
     * ```hot_key_property_name``` - defaults to ```hot_keys```
+* handler
+** return false if you do not want it to propagate to the next priority handler
+
+## Notes
+
+* If using with redux connect do the hotkey first then connect
+  ```connect(mapStateToProps, actions)(hotkeys(NextButton))```
+* hotkeys will work even in form elements (not Mousetrap's default behavior)
+
+
+## Extras
+
+### hotkey_display just a helper for display the keys to users
+```javascript
+import {hotkey_display} from 'react-keyboard-shortcuts'
+
+const tooltip = hotkey_display('alt+n') // on a mac this will return 'option'
+const tooltip = hotkey_display('meta+n') // on a mac this will return '⌘'
+```
+
 
 ## Thanks
 
