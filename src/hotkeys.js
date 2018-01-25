@@ -2,6 +2,8 @@ import React from 'react'
 import Mousetrap from 'mousetrap'
 import _ from 'lodash'
 
+Mousetrap.prototype.stopCallback = () => false
+
 const default_options = {
   hot_key_property_name: 'hot_keys',
 }
