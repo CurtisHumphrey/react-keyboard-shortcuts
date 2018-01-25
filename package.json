@@ -1,6 +1,6 @@
 {
   "name": "react-keyboard-shortcuts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A declarative library for handling hotkeys based on explicit priority in React applications",
   "keywords": [
     "keyboard",
