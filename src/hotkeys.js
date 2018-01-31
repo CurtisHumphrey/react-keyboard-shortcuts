@@ -18,7 +18,7 @@ const hotkey_get_handler = (hotkey) => (e, combo) => {
     if (!propagate) return
     propagate = handler(e, combo)
   })
-  return !propagate
+  return propagate
 }
 
 const load_hotkeys = (handlers) => {
