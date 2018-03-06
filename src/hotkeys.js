@@ -36,6 +36,7 @@ const unload_hotkeys = (handlers) => {
   _.forEach(handlers, (response, hotkey) => {
     _.remove(global_hotkeys[hotkey], response)
     if (global_hotkeys[hotkey].length === 0) {
+      global_hotkeys[hotkey] = null
       Mousetrap.unbind(hotkey)
     }
   })
