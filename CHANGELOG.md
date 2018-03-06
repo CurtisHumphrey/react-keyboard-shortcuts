@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.2"></a>
+## [1.1.2](https://github.com/CurtisHumphrey/react-keyboard-shortcuts/compare/v1.1.1...v1.1.2) (2018-03-06)
+
+
+### Bug Fixes
+
+* when unloaded last hotkey set to init state ([4a1a8a7](https://github.com/CurtisHumphrey/react-keyboard-shortcuts/commit/4a1a8a7))
+
+
+
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/CurtisHumphrey/react-keyboard-shortcuts/compare/v1.1.0...v1.1.1) (2018-01-31)
 
