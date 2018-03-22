@@ -1,4 +1,5 @@
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/CurtisHumphrey/react-keyboard-shortcuts/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/CurtisHumphrey/react-keyboard-shortcuts.svg)](https://github.com/CurtisHumphrey/react-keyboard-shortcuts/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/dt/react-keyboard-shortcuts.svg)](https://www.npmjs.com/package/react-keyboard-shortcuts)
 
 A declarative library for handling hotkeys based on explicit priority in React applications.
 
